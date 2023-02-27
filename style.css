@@ -1,25 +1,126 @@
 * { 
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body { 
-    padding: 100px;
-    
+  padding: 100px;
+  background-color: #071624 !important;
+  
 }
 
 footer { 
-    background-color: rgba(184, 0, 61, 0.89);
-    height: 100px;
-    border-bottom-right-radius: 30%;
-    border-bottom-left-radius: 30%;
-    display: flex;
-    justify-content:space-between; 
-    padding: 20px;
+  background-color: rgba(184, 0, 61, 0.89);
+  height: 100px;
+  border-bottom-right-radius: 30%;
+  border-bottom-left-radius: 30%;
+  display: flex;
+  justify-content:space-between; 
+  padding: 20px;
 }
 
+a { 
+color: white !important;
+}
+
+a:hover {
+  transform: scale(1.2);
+  color:rgba(253, 64, 127, 0.89) !important;
+}
+
+label { 
+color: white !important;
+padding: 10px;
+}  
+
+.search { 
+color: white !important;
+padding: 10px;
+}
+
+.card-container { 
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.cards {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 50px;
+} 
+
+.card {
+  border: 2px solid rgba(253, 64, 127, 0.89) !important;
+  margin-bottom: 50px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card-body {
+  background-color: #071624;
+}
+
+h5.card-title {
+  color: antiquewhite;
+  text-align: center;
+  background-color: #28384b;
+}
+
+p.card-text {
+  height: 100px;
+  color: wheat;
+  text-align: center;
+  background-color: #28384b;
+}
+
+p.card-category {
+  background-color: #28384b;
+  text-align: center;
+  color: hotpink;
+  font-size: 10px;
+}
+
+p.card-date {
+  color: hotpink;
+  text-align: center;
+  background-color: #28384b;
+}
+
+p.card-place {
+  color: darkcyan;
+  text-align: center;
+  background-color: #28384b;
+}
+
+p.card-price {
+  color: darkgray;
+  text-align: left;
+  background-color: #28384b;
+  margin-left: 3%;
+}
+
+p.card-estimate {
+  color: darkkhaki;
+  text-align: center;
+  background-color: #28384b;
+}
+
+p.card-capacity {
+  color: darkorange;
+  text-align: center;
+  background-color: #28384b;
+}
+
+
 .social-media-img { 
-    height: 35px;
-    width: 35px;
+  height: 35px;
+  width: 35px;
 } 
