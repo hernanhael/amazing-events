@@ -79,6 +79,16 @@ padding: 15px;
 }
 
 
+/* Main title */
+.main-title > h2 { 
+  color: white;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+}
+
+
 /* Cards */
 
 
@@ -166,10 +176,33 @@ p.card-capacity {
 }
 
 
+/* Contact */
+.contact-container { 
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 100px;
+}
 
+.contact-title { 
+  color: white;
+} 
 
+.form-area { 
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0px 10px 0px;
+}
 
+.form-area > input { 
+  border: 2px solid rgba(253, 64, 127, 0.89);
+}
 
+.form-area > textarea { 
+  border: 2px solid rgba(253, 64, 127, 0.89);
+}
 
 
 /* Footer */

@@ -18,57 +18,59 @@
 
 <body>
   <header>
-    <div class="row">
-      <img src="./assets/Logo Amazing Events.png" alt="logo-img" class="col-7">
-      <div class="d-flex justify-content-end col-11">
-        <a class="nav-link active p-3" aria-current=" page" href="#">Home</a>
-        <a class="nav-link active p-3" href="./upcoming-events.html">Upcoming Events</a>
-        <a class="nav-link active p-3" href="./past-events.html">Past Events</a>
-        <a class="nav-link active p-3" href="./contact.html">Contact</a>
-        <a class="nav-link active p-3" href="./event.html">Event</a>
-        <a class="nav-link active p-3" href="./stats.html">Stats</a>
-      </div>
+    <div class="header-container">
+      <img src="./assets/Logo Amazing Events.png" alt="logo-img" class="header-img">
+      <nav class="nav-bar">
+        <a class="" href="#">Home</a>
+        <a class="" href="./upcoming-events.html">Upcoming Events</a>
+        <a class="" href="./past-events.html">Past Events</a>
+        <a class="" href="./contact.html">Contact</a>
+        <a class="" href="./event.html">Event</a>
+        <a class="" href="./stats.html">Stats</a>
+      </nav>
     </div>
-    </nav>
   </header>
   <main>
-    <div class="d-flex justify-content-around  p-5">
-      <div class=" category-check">
-        <input type="checkbox" name="category1" id="category1" value="category1">
-        <label for="category1">Category</label>
+    <div class="category-search-container">
+      <div class="category">
+        <input type="checkbox" name="book-exchange" id="book-exchange" value="book-exchange">
+        <label for="book-exchange">Book Exchange</label>
 
-        <input type="checkbox" name="category2" id="category2" value="category2">
-        <label for="category2">Category</label>
+        <input type="checkbox" name="custome-party" id="custome-party" value="custome-party">
+        <label for="custome-party">Custome Party</label>
 
-        <input type="checkbox" name="category3" id="category3" value="category3">
-        <label for="category3">Category</label>
+        <input type="checkbox" name="museum" id="museum" value="museum">
+        <label for="museum">Museum</label>
 
-        <input type="checkbox" name="category4" id="category4" value="category4">
-        <label for="category4">Category</label>
+        <input type="checkbox" name="music-concert" id="music-concert" value="music-concert">
+        <label for="music-concert">Music Concert</label>
 
-        <input type="checkbox" name="category5" id="category5" value="category5">
-        <label for="category5">Category</label>
+        <input type="checkbox" name="race" id="race" value="race">
+        <label for="race">Race</label>
       </div>
-      <div class="search">
+      <div class="srch">
         <span>What do you want?</span>
         <input type="search" name="" id="">
       </div>
     </div>
+    <div class="main-title">
+      <h2>Home</h2>
+    </div>
     <div class="cards" id="cards"></div>
   </main>
   <footer>
-    <div class="row">
-      <div">
+    <div class="footer-container">
+      <div class="social-media">
         <a href="https://www.instagram.com/" target="_blank"><img src="./assets/img/instragram.png" alt="instagram"
             class="social-media-img"></a>
         <a href="https://www.facebook.com/" target="_blank"><img src="./assets/img/facebook.png" alt="facebook"
             class="social-media-img"></a>
         <a href="https://web.whatsapp.com/" target="_blank"><img src="./assets/img/whatsapp.png" alt="whatsapp"
             class="social-media-img"></a>
-    </div>
-    <div class="">
-      <h3>Cohort</h3>
-    </div>
+      </div>
+      <div class="cohort">
+        <h3>Cohort</h3>
+      </div>
     </div>
   </footer>
   <script src="./scripts/data.js"></script>

@@ -18,50 +18,52 @@
 
 <body>
     <header>
-        <div class="row">
-            <img src="./assets/Logo Amazing Events.png" alt="logo-img" class="col-7">
-            <div class="d-flex justify-content-end col-11">
-                <a class="nav-link active p-3" aria-current=" page" href="./index.html">Home</a>
-                <a class="nav-link active p-3" href="./upcoming-events.html">Upcoming Events</a>
-                <a class="nav-link active p-3" href="./past-events.html">Past Events</a>
-                <a class="nav-link active p-3" href="#">Contact</a>
-                <a class="nav-link active p-3" href="./event.html">Event</a>
-                <a class="nav-link active p-3" href="./stats.html">Stats</a>
-            </div>
+        <div class="header-container">
+            <img src="./assets/Logo Amazing Events.png" alt="logo-img" class="header-img">
+            <nav class="nav-bar">
+                <a class="" href="./index.html">Home</a>
+                <a class="" href="./upcoming-events.html">Upcoming Events</a>
+                <a class="" href="./past-events.html">Past Events</a>
+                <a class="" href="#">Contact</a>
+                <a class="" href="./event.html">Event</a>
+                <a class="" href="./stats.html">Stats</a>
+            </nav>
         </div>
-        </nav>
     </header>
     <main>
-        <div class="flex-column d-flex align-items-center p-5">
-            <h2 class="p-4">Contact Us</h2>
-            <div class="mb-3 col-4">
-                <label for="fname" class="form-label">Name:</label>
-                <input type="text" class="form-control" id="fname">
-            </div>
-            <div class="mb-3 col-4">
-                <label for="email" class="form-label">Email:</label>
-                <input type="text" class="form-control" id="email">
-            </div>
-            <div class="mb-3 col-4">
-                <label for=" text-area" class="form-label">Message:</label>
-                <textarea class="form-control" name="text-area" id="text-area" rows="8"></textarea>
-            </div>
-            <button type="submit" class="btn btn-dark">Send</button>
+        <div class="contact-container">
+            <h2 class="contact-title">Contact Us</h2>
+            <form action="" method="get" class="form-container">
+                <div class="form-area">
+                    <label for="fname">Name:</label>
+                    <input type="text" name="name" id="fname">
+                </div>
+                <div class="form-area">
+                    <label for="email">Email:</label>
+                    <input type="text" name="email" id="email">
+                </div>
+                <div class="form-area">
+                    <label for="text-area">Message:</label>
+                    <textarea name="message" id="text-area" cols="60" rows="10"
+                        placeholder="We'r happy to read you..."></textarea>
+                </div>
+            </form>
+            <button type="submit" class="btn btn-danger">Send</button>
         </div>
     </main>
     <footer>
-        <div class="row">
-            <div">
+        <div class="footer-container">
+            <div class="social-media">
                 <a href="https://www.instagram.com/" target="_blank"><img src="./assets/img/instragram.png"
                         alt="instagram" class="social-media-img"></a>
                 <a href="https://www.facebook.com/" target="_blank"><img src="./assets/img/facebook.png" alt="facebook"
                         class="social-media-img"></a>
                 <a href="https://web.whatsapp.com/" target="_blank"><img src="./assets/img/whatsapp.png" alt="whatsapp"
                         class="social-media-img"></a>
-        </div>
-        <div class="">
-            <h3>Cohort</h3>
-        </div>
+            </div>
+            <div class="cohort">
+                <h3>Cohort</h3>
+            </div>
         </div>
     </footer>
 </body>
