@@ -3,7 +3,7 @@ const cardsContainer = document.getElementById("cards");
 function createCard(arrayEvents) {
   let cards = "";
   for (const event of arrayEvents) {
-    cards += `<div class="card" style="width: 280px">
+    cards += `<div class="card" style="width: 250px">
                 <img src="${event.image}" class="card-img-top" alt="..." />
                  <div class="card-body">
                    <h5 class="card-title">${event.name}</h5>
