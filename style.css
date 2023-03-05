@@ -34,6 +34,7 @@ padding: 20px 60px 0px 0px;
 color: white;
 text-decoration: none;
 padding: 15px;
+height: 50px;
 }
 
 .nav-bar > a:hover {
@@ -55,6 +56,10 @@ padding: 15px;
   color: white;
   font-size: 18px;
   padding-right: 20px;
+}
+
+.category > input { 
+  accent-color: rgba(253, 64, 127, 0.89);
 }
 
 .srch { 
@@ -108,6 +113,9 @@ padding: 15px;
 }
 
 .card-body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   background-image: linear-gradient(rgba(192, 192, 192, 0.89), #071624);;
 }
 
@@ -130,16 +138,16 @@ padding: 15px;
   text-align: center;
 }
 
-
 .card-date {
+  font-family: monospace;
   font-weight: bolder;
   color: #071624;
   text-align: center;
   background-color: gray;
-  border-radius: 3%;
 }
 
 .card-place {
+  font-family: monospace;
   font-weight: bolder;
   color: #071624;
   background-color: gray;
@@ -147,12 +155,14 @@ padding: 15px;
 }
 
 .card-capacity {
+  font-family: monospace;
   color: darkorange;
   text-align: center;
   background-color: gray;
 }
 
 .card-estimate {
+  font-family: monospace;
   color: darkkhaki;
   text-align: center;
   background-color: gray;
@@ -165,8 +175,6 @@ padding: 15px;
   color: green;
   text-align: right;
 }
-
-
 
 
 /* Contact */

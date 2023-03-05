@@ -1,4 +1,4 @@
-const cardsContainer = document.getElementById("cards");
+const cardsContainer = document.getElementById("upcoming-events-cards");
 
 function createCard(arrayEvents) {
   let cards = "";
@@ -13,7 +13,7 @@ function createCard(arrayEvents) {
                    <p class="card-date">Date: ${event.date}</p>
                    <p class="card-place">Place: ${event.place}</p>
                    <p class="card-capacity">Capacity: ${event.capacity}</p>
-                   <p class="card-estimate">Estimate: ${event.assistance}</p>
+                   <p class="card-estimate">Estimate: ${event.estimate}</p>
                    <p class="card-price">$ ${event.price}</p>
                    <a href="./stats.html" class="btn btn-dark">More Info</a>
                  </div>
