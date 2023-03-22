@@ -1,4 +1,14 @@
-var data = {
+const urlAPI = "https://mindhub-xj03.onrender.com/api/amazing"; 
+
+const getData = async () => { 
+  const response = await fetch(urlAPI);
+  const data = await response.json();
+  return data
+};
+
+export { getData };
+
+/* var data = {
     "currentDate": "2022-01-01",
     "events": [
       {
@@ -170,4 +180,4 @@ var data = {
         "price":250
       }
     ]
-  };
+  }; */

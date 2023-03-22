@@ -6,9 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../style.css">
-    <link rel="shortcut icon" href="./assets/Logo Amazing Events.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../assets/Logo Amazing Events.png" type="image/x-icon">
     <title>Amazing Events</title>
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
@@ -18,67 +17,145 @@
 
 <body>
     <header>
-        <div class="row">
-            <img src="../assets/Logo Amazing Events.png" alt="logo-img" class="col-7">
-            <div class="d-flex justify-content-end col-11">
-                <a class="nav-link active p-3" aria-current=" page" href="../index.html">Home</a>
-                <a class="nav-link active p-3" href="../pages/upcoming-events.html">Upcoming Events</a>
-                <a class="nav-link active p-3" href="../pages/past-events.html">Past Events</a>
-                <a class="nav-link active p-3" href="../pages/contact.html">Contact</a>
-                <a class="nav-link active p-3" href="../pages/event.html">Event</a>
-                <a class="nav-link active p-3" href="#">Stats</a>
-            </div>
+        <div class="header-container">
+            <img src="../assets/Logo Amazing Events.png" alt="logo-img" class="header-img">
+            <nav class="nav-bar">
+                <a class="" href="../index.html">Home</a>
+                <a class="" href="../pages/upcoming-events.html">Upcoming Events</a>
+                <a class="" href="../pages/past-events.html">Past Events</a>
+                <a class="" href="../pages/contact.html">Contact</a>
+                <a class="" href="#">Stats</a>
+            </nav>
         </div>
-        </nav>
     </header>
     <main>
-        <div class="flex-column d-flex align-items-center p-3">
-            <h2 class="p-4">Stats</h2>
-            <table class="class=">
-                <tbody>
-                    <fieldset>
-                        <legend>Events Statistics</legend>
-                        <tr>
-                            <th>Events with the highest percentage of attendance</th>
-                            <th>Events with the lowest percentage of attendance</th>
-                            <th>Event with larger capacity</th>
-                        </tr>
-                    </fieldset>
-                    <fieldset>
-                        <legend>Upcoming Events Statistics by category</legend>
-                        <tr>
-                            <th>Categories</th>
-                            <th>Revenues</th>
-                            <th>Percentage of attendance</th>
-                        </tr>
-                    </fieldset>
-                    <fieldset>
-                        <legend>Past Events Statistics by category</legend>
-                        <tr>
-                            <th>Categories</th>
-                            <th>Revenues</th>
-                            <th>Percentage of attendance</th>
-                        </tr>
-                    </fieldset>
-                </tbody>
+        <div class="table-container">
+            <h3 class="table-title">Events statistics</h3>
+            <table class="table table-bordered">
+                <tr>
+                    <th class="table-main">
+                        Events with the highest percentage of attendance
+                    </th>
+                    <th class="table-main">
+                        Events with the lowest percentage of attendance
+                    </th>
+                    <th class="table-main">Events with larger capacity</th>
+                </tr>
+                <tr>
+                    <td id="event-highest-percentage-one"></td>
+                    <td id="event-lowest-porcentage-one"></td>
+                    <td id="event-larger-capacity-one"></td>
+                </tr>
+                <tr>
+                    <td id="event-highest-percentage-two"></td>
+                    <td id="event-lowest-porcentage-two"></td>
+                    <td id="event-larger-capacity-two"></td>
+                </tr>
+                <tr>
+                    <td id="event-highest-percentage-three"></td>
+                    <td id="event-lowest-porcentage-three"></td>
+                    <td id="event-larger-capacity-three"></td>
+                </tr>
+            </table>
+            <h3 class="table    -title">Past events statistics by category</h3>
+            <table class="table table-bordered">
+                <tr>
+                    <th class="table-main">Categories</th>
+                    <th class="table-main">Revenues</th>
+                    <th class="table-main">Percentage of attendance</th>
+                </tr>
+                <tr>
+                    <td id="event-category-past-one"></td>
+                    <td id="event-revenues-past-one"></td>
+                    <td id="event-percentage-past-one"></td>
+                </tr>
+                <tr>
+                    <td id="event-category-past-two"></td>
+                    <td id="event-revenues-past-two"></td>
+                    <td id="event-percentage-past-two"></td>
+                </tr>
+                <tr>
+                    <td id="event-category-past-three"></td>
+                    <td id="event-revenues-past-three"></td>
+                    <td id="event-percentage-past-three"></td>
+                </tr>
+                <tr>
+                    <td id="event-category-past-four"></td>
+                    <td id="event-revenues-past-four"></td>
+                    <td id="event-percentage-past-four"></td>
+                </tr>
+                <tr>
+                    <td id="event-category-past-five"></td>
+                    <td id="event-revenues-past-five"></td>
+                    <td id="event-percentage-past-five"></td>
+                </tr>
+                <tr>
+                    <td id="event-category-past-six"></td>
+                    <td id="event-revenues-past-six"></td>
+                    <td id="event-percentage-past-six"></td>
+                </tr>
+                <tr>
+                    <td id="event-category-past-seven"></td>
+                    <td id="event-revenues-past-seven"></td>
+                    <td id="event-percentage-past-seven"></td>
+                </tr>
+            </table>
+            <h3 class="table-title">UpComming events statistics by category</h3>
+            <table class="table table-bordered">
+                <tr>
+                    <th class="table-main">Categories</th>
+                    <th class="table-main">Revenues</th>
+                    <th class="table-main">Percentage of attendance</th>
+                </tr>
+                <tr>
+                    <td id="event-category-up-one"></td>
+                    <td id="event-revenues-up-one"></td>
+                    <td id="event-percentage-up-one"></td>
+                </tr>
+                <tr>
+                    <td id="event-category-up-two"></td>
+                    <td id="event-revenues-up-two"></td>
+                    <td id="event-percentage-up-two"></td>
+                </tr>
+                <tr>
+                    <td id="event-category-up-three"></td>
+                    <td id="event-revenues-up-three"></td>
+                    <td id="event-percentage-up-three"></td>
+                </tr>
+                <tr>
+                    <td id="event-category-up-four"></td>
+                    <td id="event-revenues-up-four"></td>
+                    <td id="event-percentage-up-four"></td>
+                </tr>
+                <tr>
+                    <td id="event-category-up-five"></td>
+                    <td id="event-revenues-up-five"></td>
+                    <td id="event-percentage-up-five"></td>
+                </tr>
+                <tr>
+                    <td id="event-category-up-six"></td>
+                    <td id="event-revenues-up-six"></td>
+                    <td id="event-percentage-up-six"></td>
+                </tr>
             </table>
         </div>
     </main>
     <footer>
-        <div class="row">
-            <div">
+        <div class="footer-container">
+            <div class="social-media">
                 <a href="https://www.instagram.com/" target="_blank"><img src="../assets/img/instragram.png"
                         alt="instagram" class="social-media-img"></a>
                 <a href="https://www.facebook.com/" target="_blank"><img src="../assets/img/facebook.png" alt="facebook"
                         class="social-media-img"></a>
                 <a href="https://web.whatsapp.com/" target="_blank"><img src="../assets/img/whatsapp.png" alt="whatsapp"
                         class="social-media-img"></a>
-        </div>
-        <div class="">
-            <h3>Cohort</h3>
-        </div>
+            </div>
+            <div class="cohort">
+                <h3>Cohort</h3>
+            </div>
         </div>
     </footer>
+    <script type="module" src="../scripts/stats.js"></script>
 </body>
 
 </html>
